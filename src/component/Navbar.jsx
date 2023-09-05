@@ -10,6 +10,7 @@ function Navbar() {
   const [open , setOpen] =useState(false);
   function closeMenu(){
     setOpen(false)
+    
   }
   return (
     <header>
